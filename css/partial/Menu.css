@@ -1,0 +1,2600 @@
+div.wrapper{
+    width: 100%;
+}
+
+div.wrapper>div.menu{
+    width: inherit;
+    height: 75px;
+   
+}
+
+div.wrapper>div.menu>div.logo{
+    width: 14%;
+    height: inherit;
+    padding-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.logo>a>img{
+    width: 60%;
+    height: 100%;
+    margin-left: 40px;
+    margin-top: 1px;
+    object-fit: contain;
+}
+
+
+div.wrapper>div.menu>div.menu{
+    width: 55%;
+    height: inherit; 
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav{
+    width: 100%;
+    height: inherit;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul{
+    width: 100%;
+    height: inherit;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 74px;
+    
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>a{
+    padding: 5px;
+    font-size: 13px;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: 100ms;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>a:hover{
+color: rgb(255, 255, 255);
+background-color: rgb(78, 64, 64);
+
+}
+
+
+div.wrapper>div.menu>div.link{
+    width: 19%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul{
+    width: 100%;
+    height: inherit;
+}
+
+div.wrapper>div.menu>div.link>ul>li{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 74px;
+    position: relative;
+}
+
+div.wrapper>div.menu>div.link>ul>li>a{
+    padding: 5px;
+    font-size: 13px;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: 100ms;
+}
+
+div.wrapper>div.menu>div.link>ul>li>a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 63, 65);
+
+}
+
+div.wrapper>div.menu>div.icon{
+    width: 11%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    position: relative;
+}
+
+div.wrapper>div.menu>div.icon>a{
+    margin: 10px ;
+   font-size: 20px;
+   line-height: 65px;
+} 
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop{
+    width: 94%;
+    height: 345px;
+    position: absolute;
+    right: 25px;
+    border-radius: 0 0 20px 20px;
+    transition: 350ms;
+    display: none;
+    z-index: 100;
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    background-color: white;
+
+    
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li:hover>div.shop{
+    display: block;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.mobile{
+    width: 625px;;
+    z-index: 100;
+    height: 500px;
+    position: absolute;
+    border-radius: 0 0 20px 20px; 
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    transition: 350ms;
+    display: none;
+    background-color: white;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li:hover>div.mobile{
+    display: block;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio{
+    width: 94%;
+    z-index: 100;
+    height: 465px;
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    position: absolute;
+    background-color: white;
+    top: 75px;
+    right: 25px;
+    border-radius: 0 0 20px 20px;
+    display: none;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li:hover>div.TVAudio{ 
+    display: block;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances{
+    width: 94%;
+    height: 465px;
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    position: absolute;
+    top: 75px;
+    background-color: white;
+    right: 25px;
+    z-index: 100;
+    border-radius: 0 0 20px 20px;
+    transition: 350ms;
+   display: none;
+   background-color: white;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li:hover>div.Appliances{ 
+    display: block;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing{
+    width: 94%;
+    height: 345px;
+    z-index: 100;
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    position: absolute;
+    top: 75px;
+    right: 25px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    transition: 350ms;
+    display: none;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li:hover>div.computing{
+    display: block;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays{
+    width: 94%;
+    height: 420px;
+    z-index: 100;
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    position: absolute;
+    background-color: white;
+    top: 70px;
+    right: 25px;
+    border-radius: 0 0 20px 20px;
+    display: none;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li:hover>div.displays{ 
+    display: block;
+}
+  
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories{
+    width: 78%;
+    height: 260px;
+    background-color: white;
+    z-index: 100;
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    position: absolute;
+    top: 75px;
+    right:250px;
+    border-radius: 0 0 20px 20px;
+    display: none;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li:hover>div.accessories{ 
+    display: block;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings{
+    width: 30%;
+    height: 256px;
+    z-index: 100;
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    position: absolute;
+    top: 75px;
+    border-radius: 0 0 20px 20px;
+    display: none;
+    background-color: white;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li:hover>div.SmartThings{ 
+    display: block;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor{
+    width: 1050px;
+    z-index: 100;
+    height: 380px;
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    position:  absolute;
+    top: 75px;
+    left:-695px;
+    border-radius: 0 0 20px 20px;
+    display: none;
+    background-color: white;
+}
+
+div.wrapper>div.menu>div.link>ul>li:hover>div.expelor{ 
+    display: block;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support{
+    width: 1280px;
+    height: 323px;
+    background-color: white;
+    z-index: 100;
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    position: absolute;
+    top: 75px;
+    left: -990px;
+    border-radius: 0 0 20px 20px;
+    display: none;
+}
+
+div.wrapper>div.menu>div.link>ul>li:hover>div.support{ 
+    display: block;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business{
+    width: 1280px;
+    height: 442px;
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    position: absolute;
+    background-color: white;
+    top: 75px;
+    left: -1055px;
+    z-index: 100;
+    border-radius: 0 0 20px 20px;
+    display: none;
+}
+
+div.wrapper>div.menu>div.link>ul>li:hover>div.business{ 
+    display: block;
+}
+
+div.wrapper>div.menu>div.icon>div.user{
+    width: 200px;
+    background-color: white;
+    z-index: 100;
+    height: 190px;
+    box-shadow:   5px 5px 5px 5px rgba(128, 128, 128, 0.418);
+    position: absolute;
+    top: 70px;
+    left: -100px;
+    border-radius: 20px;
+    display: none;
+    transition: 350ms;
+}
+
+div.wrapper>div.menu>div.icon:hover>div.user{ 
+    display: block;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop1{
+    display: inline-block;
+    vertical-align: top;
+    width: 16.4%;
+    height: 98%;
+    
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop2{
+    display: inline-block;
+    vertical-align: top;
+    width: 16.4%;
+    height: 98%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop3{
+    display: inline-block;
+    vertical-align: top;
+    width: 16.4%;
+    height: 98%; 
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop3{
+    display: inline-block;
+    vertical-align: top;
+    width: 16.3%;
+    height: 98%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop4{
+    display: inline-block;
+    vertical-align: top;
+    width: 16.3%;
+    height: 98%;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop5{
+    display: inline-block;
+    vertical-align: top;
+    width: 16.3%;
+    height: 98%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop6{
+    display: inline-block;
+    vertical-align: top;
+    width: 16.3%;
+    height: 98%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop1>ul{
+    width: 100%;
+    height: 100%;
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop1>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left:10px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop1>ul>li>a{
+    color: black;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop1>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop1>ul>li>a>span{
+    color: rgb(255, 255, 255);
+    background-color: rgb(79, 22, 170);
+    margin: 3px;
+    padding: 4px;
+    font-size: 10px;
+    border-radius: 15px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop1>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop2>ul{
+    width: 100%;
+    height: 100%;
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop2>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop2>ul>li>a{
+    color: black;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop2>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop2>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop2>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop3>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop3>ul>li>a{
+    color: black;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop3>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop3>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop4>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop4>ul>li>a{
+    color: black;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop4>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop4>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop5>ul>li{ 
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop5>ul>li>a{
+    color: black;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop5>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop5>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop6>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop6>ul>li>a{
+    color: black;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop6>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.shop>div.shop6>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.mobile>div.ui{
+    height: 100%;
+    width: 155px;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px rgba(0, 0, 0, 0.396) solid;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.mobile>div.ui>ul{
+    height: 100%;
+    width:100% ;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.mobile>div.ui>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.mobile>div.ui>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.mobile>div.ui>ul>li>a:hover{
+    font-size: 13.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.mobile>div.img{
+    height: 35px;
+    width: 74.4%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.mobile>div.img>p{
+    margin: -15px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.mobile>div.img>ul{
+    width: 464px;
+    height: 147px;
+    display: block;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.mobile>div.img>ul>li{
+    width: 125px;
+    height: 135px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 32px;
+    position: relative;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.mobile>div.img>ul>li>p{
+    margin-top: -40px;
+    position: absolute;
+    margin-left: -15px;
+    font-size: 12.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a1{
+    height: inherit;
+    width: 16%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a1>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a1>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a1>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a1>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a1>ul>li.a>a:nth-of-type(1){
+    font-weight: 750;
+    font-size: 14px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a2{
+    height: inherit;
+    width: 16%;
+     display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a2>ul{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a2>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a2>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a1>ul>li>a>span{
+    background-color: rgba(0, 128, 0, 0.733);
+    margin: 5px;
+    padding: 3px;
+    border-radius: 15px;
+    font-size: 10px;
+
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a5>ul>li>a>span{
+    background-color: rgba(247, 9, 9, 0.719);
+    margin: 5px;
+    padding: 3px;
+    border-radius: 15px;
+    font-size: 10px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a6>ul>li>a>span{
+    background-color: rgba(247, 9, 9, 0.719);
+    margin: 5px;
+    padding: 3px;
+    border-radius: 15px;
+    font-size: 10px;
+
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a6>ul>li>a>span.b{
+    margin: 5px;
+    background-color: rgba(10, 10, 247, 0.651);
+    padding: 3px;
+    border-radius: 15px;
+    font-size: 10px;
+}
+
+   
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a2>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a2>ul>li.a>a:nth-of-type(1){
+    font-weight: 750;
+    font-size: 14px;
+
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a3{
+    height: inherit;
+    width: 16%;
+    display: inline-block;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a3>ul{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a3>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a3>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a3>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a3>ul>li.a>a:nth-of-type(1){
+    font-weight: 750;
+    font-size: 14px;
+
+}
+
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a4{
+    height: inherit;
+    width: 16%;
+    display: inline-block;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a4>ul{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a4>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a4>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a4>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a4>ul>li.a>a:nth-of-type(1){
+    font-weight: 750;
+    font-size: 14px;
+
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a4>ul>li.a>a:nth-of-type(6){
+    font-weight: 750;
+    font-size: 14px;
+
+}
+
+
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a5{
+    height: inherit;
+    width: 16%;
+    display: inline-block;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a5>ul{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a5>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a5>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a5>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a5>ul>li.a>a:nth-of-type(1){
+    font-weight: 750;
+    font-size: 14px;
+
+}
+
+
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a6{
+    height: inherit;
+    width: 16%;
+    display: inline-block;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a6>ul{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a6>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a6>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a6>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a6>ul>li.a>a:nth-of-type(1){
+    font-weight: 750;
+    font-size: 14px;
+
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.TVAudio>div.a6>ul>li.a>a:nth-of-type(9){
+    font-weight: 750;
+    font-size: 14px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app1{
+    width: calc( 100% / 6.25);
+    height:100% ;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app1>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app1>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app1>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app1>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app1>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;  
+}
+
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app2{
+    width: calc( 100% / 6.1);
+    height:100% ;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app2>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app2>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app2>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app2>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app2>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app3>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app3{
+    width: calc( 100% / 6.1);
+    height:100% ;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app3>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app3>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app3>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app3>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app4{
+    width: calc( 100% / 6.1);
+    height:100% ;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app4>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app4>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app4>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app4>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app4>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app5{
+    width: calc( 100% / 6.1);
+    height:100% ;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app5>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app5>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app5>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app5>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app5>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app6{
+    width: calc( 100% / 6.1);
+    height:100% ;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app6>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app6>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app6>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app6>ul>li>a:hover{
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.Appliances>div.app6>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+
+}
+
+
+
+div.wrapper>div.menu>div.icon>div.user>div{
+    width: 100%;
+    height: 24%;
+    padding-top: 10px;
+  
+}
+div.wrapper>div.menu>div.icon>div.user>div>a{
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    font-size: 13px;
+  
+}
+
+
+
+div.wrapper>div.menu>div.icon>div.user>div:hover>a{
+    font-weight: 700;
+
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s1{
+    width: calc(100% /6.15);
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s1{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s1>ul{
+    width: 100%;
+    height: 100%;
+    
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s1>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+    
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s1>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s1>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+} 
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s1>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s2{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s2>ul{
+    width: 100%;
+    height: 100%;
+    
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s2>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+    
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s2>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s2>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+} 
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s2>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s3{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s3>ul{
+    width: 100%;
+    height: 100%;
+    
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s3>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+    
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s3>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s3>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+} 
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s3>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s4{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s4>ul{
+    width: 100%;
+    height: 100%;
+    
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s4>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+    
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s4>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s4>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+} 
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s4>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s5{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s5>ul{
+    width: 100%;
+    height: 100%;
+    
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s5>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+    
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s5>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s5>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+} 
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s5>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s6{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s6>ul{
+    width: 100%;
+    height: 100%;
+    
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s6>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+    
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s6>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s6>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+} 
+div.wrapper>div.menu>div.menu>nav>ul>li>div.computing>div.s6>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d1{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d1>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d1>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d1>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d1>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d1>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d2{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d2>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d2>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d2>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d2>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d2>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d3{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d3>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d3>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d3>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d3>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d3>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d4{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d4>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d4>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d4>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d4>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d4>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d5{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d5>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d5>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d5>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d5>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d5>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d6{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d6>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d6>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d6>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d6>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.displays>div.d6>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m1{
+    width: calc(100% /5.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m1>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m1>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m1>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m1>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m1>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m2{
+    width: calc(100% /5.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m2>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m2>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m2>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m2>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m2>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m3{
+    width: calc(100% /5.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m3>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m3>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m3>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 13px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m3>ul>li>a.a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m3>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m4{
+    width: calc(100% /5.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m4>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m4>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m4>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m4>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m4>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m5{
+    width: calc(100% /5.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m5>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m5>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m5>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m5>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.accessories>div.m5>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g1{
+    width: calc(100% /2.1);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g1>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g1>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g1>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g1>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g1>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g2{
+    width: calc(100% /2.1);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g2>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g2>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g2>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g2>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.menu>nav>ul>li>div.SmartThings>div.g2>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h1{
+    width: calc(100% /5.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h1>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h1>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h1>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h1>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h1>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h2{
+    width: calc(100% /5.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h2>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h2>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h2>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h2>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h2>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h3{
+    width: calc(100% /5.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h3>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h3>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h3>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h3>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h3>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h4{
+    width: calc(100% /5.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h4>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h4>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h4>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h4>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h4>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h5{
+    width: calc(100% /5.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h5>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h5>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h5>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h5>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h5>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h6{
+    width: calc(100% /5.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h6>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h6>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h6>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h6>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.expelor>div.h6>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j1{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j1>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j1>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j1>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j1>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j1>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j2{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j2>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j2>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j2>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j2>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j2>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j3{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j3>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j3>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j3>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j3>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j3>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j4{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j4>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j4>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j4>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j4>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j4>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j5{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j5>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j5>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j5>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j5>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j5>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j6{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j16ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j6>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j6>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j6>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.support>div.j6>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k1{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k1>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k1>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k1>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k1>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k1>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k2{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k2>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k2>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k2>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k2>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k2>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k3{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k3>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k3>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k3>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k3>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k3>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k4{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k4>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k4>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k4>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k4>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k4>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k5{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k5>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k5>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k5>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k5>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k5>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k6{
+    width: calc(100% /6.15);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k6>ul{
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k6>ul>li{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k6>ul>li>a{
+    color: black;
+    margin-bottom: 6px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10.5px;
+}
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k6>ul>li>a:nth-of-type(1).a{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+
+div.wrapper>div.menu>div.link>ul>li>div.business>div.k6>ul>li>a:hover{
+    font-weight: 750;
+    font-size: 14px;
+}
+
+

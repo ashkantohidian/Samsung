@@ -1,0 +1,61 @@
+div.look{
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+div.look>p{
+    font-size: 41.8px;
+    font-weight: 600; 
+}
+
+div.input{
+    margin: 0 auto;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+
+div.input>input{
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 420px;
+    height: 47px;
+    margin-bottom: 10px;
+}
+
+div.input>div.mat{
+    width: 100%;
+    height: 50px;
+
+}
+
+div.input>div.mat>ul{
+    width: 100%;
+    height: 50px;
+}
+
+div.input>div.mat>ul>li{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+}
+
+
+div.input>div.mat>ul>li>a{
+    padding: 8px;
+    font-size: 12px;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+div.input>div.mat>ul>li>a:hover{
+    background-color: rgb(222, 222, 222);
+}
+
+

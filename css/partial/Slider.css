@@ -1,0 +1,226 @@
+div.slider{
+    width: 96%; 
+    height: 650px;
+    margin-left: 35px;
+    padding: 5px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+div.text{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    top: 30%;
+    margin-left: 30px;
+}
+
+div.text>p.text0{
+    width: 40px;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.text>p.text1{
+    width: 85%;
+    margin-top: 30px;
+    margin-left: 55px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+div.text>p.text2{
+    width: 95%;
+    margin-top: 22px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+div.text>a.text3{
+    margin-left: -150px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: black;
+}
+
+div.text>a.text3:hover{
+    text-decoration: 2px solid black underline;
+}
+
+div.text>a.text4{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    transition: 350ms;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+div.text>a.text4:hover{
+    background-color:gray;
+}
+
+div.text>p.text5{
+    width: 150px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.text>p.text6{
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 55px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+div.text>p.text7{
+    width: 95%;
+    margin-top: 22px;
+    text-align: left;
+    margin-left: 55px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+div.text>a.text8{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    transition: 350ms;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: -250px;
+}
+
+div.text>a.text8:hover{
+    background-color:gray;
+}
+
+div.text>p.text9{
+    width: 110px;
+    color: white;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.text>p.text10{
+    width: 110%;
+    color: white;
+    margin-top: 25px;
+    margin-left: 55px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+div.text>p.text11{
+    width: 150%;
+    margin-top: 22px;
+    text-align: left;
+    margin-left: 55px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+div.text>a.text12{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    transition: 350ms;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: -250px;
+}
+
+div.text>a.text12:hover{
+    background-color: rgb(208, 208, 208);
+}
+
+div.text>p.text13{
+    width: 140%;
+    color: white;
+    margin-top: 25px;
+    margin-left: 55px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+div.text>p.text14{
+    width: 115px;
+    color: white;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.text>a.text15{
+    margin-left: -150px;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+}
+
+div.text>a.text15:hover{
+    text-decoration: 2px solid white underline;
+}
+
+div.text>a.text16{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    transition: 350ms;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: -20px;
+    margin-left: 10px;
+}
+
+div.text>a.text16:hover{
+    background-color: rgb(208, 208, 208);
+}
+
